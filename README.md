@@ -30,3 +30,5 @@ De pe esp32 hostam un website, de unde utilizatorii pot controla macaraua. Cand 
 Am folosit libraria SoftwareSerial.h pentru comunicarea serial, si WiFi.h, WiFiAP.h, WiFiClient.h
 
 ## Schema electrica:
+
+https://app.cirkitdesigner.com/project/7a18af7f-8ecd-481f-a81a-342248b08729
