@@ -3,13 +3,13 @@
 O macara cu doua motoare care se poate controla dintr-un site.
 
 ## Componente folosite:
-"sasiu" - bucati de pal de prin casa
-2 motoare DC TT galbene
-1 breadbord (optional)
-1 punte H hw-095
-1 arduino UNO
-1 esp32 DEVKIT 
-jumpere
+- "sasiu" - bucati de pal de prin casa
+- 2 motoare DC TT galbene
+- 1 breadbord (optional)
+- 1 punte H hw-095
+- 1 arduino UNO
+- 1 esp32 DEVKIT 
+- jumpere
 
 ## Descriere proiect
 
@@ -23,9 +23,9 @@ Comunicarea e uni directionala (esp32 -> arduino) deoarece esp32 functioneaza pe
 De pe esp32 hostam un website, de unde utilizatorii pot controla macaraua. Cand un buton de pe site este apasat, se trimite un semnal specific la arduino prin comunicare serial. Arduino citeste messajul si trimite semnalul appropriate la puntea H, care la randul ei controleaza motoarele. 
 
 ## Cod "de pe internet":
-Pentru control motoare am refolosit o parte din codul meu, facut la alt proiect de acum un an: https://github.com/Tuchila-Adi-Bogdan/utcn-Density_Based_Solid_Waste_Sorting_System
-Pentru partea de back-end la site m-am folosit in mare parte de laboratorul 9 PMP, si de aceasta librarie de cod: https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFi/examples/WiFiAccessPoint
-Pentru partea de front-end la site m-am folosit (nu integral !) de inteligenta artificiala, deoarece nu stapanesc partea de front-end. 
+- Pentru control motoare am refolosit o parte din codul meu, facut la alt proiect de acum un an: https://github.com/Tuchila-Adi-Bogdan/utcn-Density_Based_Solid_Waste_Sorting_System
+- Pentru partea de back-end la site m-am folosit in mare parte de laboratorul 9 PMP, si de aceasta librarie de cod: https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFi/examples/WiFiAccessPoint
+- Pentru partea de front-end la site m-am folosit (nu integral !) de inteligenta artificiala, deoarece nu stapanesc partea de front-end. 
 
 Am folosit libraria SoftwareSerial.h pentru comunicarea serial, si WiFi.h, WiFiAP.h, WiFiClient.h
 
