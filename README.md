@@ -31,4 +31,4 @@ Am folosit libraria SoftwareSerial.h pentru comunicarea serial, si WiFi.h, WiFiA
 
 ## Schema electrica:
 
-https://app.cirkitdesigner.com/project/7a18af7f-8ecd-481f-a81a-342248b08729
+<img src="circuit_image.png">
